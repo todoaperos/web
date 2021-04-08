@@ -2,7 +2,7 @@
 <html lang="es">
   
   <head>
-    <!-- Pagina Creada por Roberto Fecha/Hora creacion de la pagina: 30/04/2020 16:32:33 HomePage: www.xxx.com -->
+    <!-- Pagina Creada por Roberto Fecha/Hora creacion de la pagina: 30/04/2020 16:32:33 HomePage: https://todoaperos.github.io/web/ -->
     <meta content="text/html; charset=UTF-8" http-equiv="content-type"/>
     <meta name="author" content="Roberto Perez"/>
     <meta name="copyright" content="&copy; 2009 TODOAPEROS"/>
@@ -116,29 +116,24 @@
       <div id="contacto">
         <p class="p-seccion">CONTACTO:</p>
         <div id="formulario">
-					<!-- Do not change the code! -->
-					<p><a target="_blank" href="https://formspree.io/" hreflang="en">formspree</a></p>
-					<form id="contactform" method="POST">
-						<label for="nombre">Nombre</label>
-						<input type="text" name="name" id="name" maxlength="30" placeholder="su nombre" required />
-						<label for="nombre">Teléfono</label>
-						<input type="text" name="telephone" id="telephone" maxlength="15" placeholder="su teléfono"/>
-						<label for="nombre">E-mail</label>
-						<input type="email" name="email" id="email" maxlength="30" placeholder="su email" required />
-						<label id="message" for="nombre">Mensaje</label>
-						<textarea name="message" maxlength="300" placeholder="describa brevemente, máximo 300 caracteres"></textarea> 
-						<input type="submit" value="¡Enviar mensaje!"/>
-						<!-- Hidden Field -->
-						<input type="hidden" name="_subject" id="subject" value=""/>
-						<input type="hidden" name="_language" value="es"/>
-						<input type="text" name="_gotcha" style="display:none"/>
-						<input type="hidden" name="_next" value=""/>
-					</form>
-					
-					<script type="text/javascript">
-						var contactform = document.getElementById('contactform');
-						contactform.setAttribute('action', 'https://formspree.io/f/xdoyog');
-					</script>
+	  <!-- Do not change the code! -->
+	  <p><a target="_blank" href="https://formspree.io/" hreflang="en">formspree</a></p>
+	  <form id="contactform" action="https://formspree.io/f/xdoyogky" method="POST">
+	    <label for="nombre">Nombre</label>
+	    <input type="text" name="name" id="name" maxlength="30" placeholder="Su nombre" required />
+	    <label for="nombre">Teléfono</label>
+	    <input type="text" name="telephone" id="telephone" maxlength="15" placeholder="Su teléfono"/>
+	    <label for="nombre">E-mail</label>
+	    <input type="email" name="email" id="email" maxlength="30" placeholder="Su email" required />
+	    <label id="message" for="nombre">Mensaje</label>
+	    <textarea name="message" maxlength="300" placeholder="Describa brevemente"></textarea> 
+	    <input type="submit" value="¡Enviar mensaje!"/>
+	    <!-- Hidden Field -->
+	    <input type="hidden" name="_subject" id="subject" value=""/>
+	    <input type="hidden" name="_language" value="es"/>
+	    <input type="text" name="_gotcha" style="display:none"/>
+	    <input type="hidden" name="_next" value=""/>
+	  </form>
           <!-- Do not change the code! -->
         </div>
         <div class="limpiar"></div>
@@ -148,7 +143,7 @@
         <p id="copyright">Copyright &copy; 2016 Todoaperos S.L.<br/>
           Empresa Inscrita en el Registro Mercantil de Zamora, T 250, F 208, S 8, H ZA 6499, I/A 1, CIF B49260417</p>
         <div id="visitas">
-					<p><a target="_blank" href="http://www.contadorvisitasgratis.com" title="contador de visitas"><img src="http://counter10.fcs.ovh/private/contadorvisitasgratis.php?c=b8080184ba2b4df64054f3a42a846abb" border="0" title="contador de visitas" alt="contador de visitas"></a></p>
+	  <p><a target="_blank" href="http://www.contadorvisitasgratis.com" title="contador de visitas"><img src="http://counter10.fcs.ovh/private/contadorvisitasgratis.php?c=b8080184ba2b4df64054f3a42a846abb" border="0" title="contador de visitas" alt="contador de visitas"></a></p>
         </div>
         <div class="limpiar"></div>
       </div>
@@ -174,10 +169,10 @@
           }
         });
 		
-				$("#name").keyup(function () {
-					var value = $(this).val();
-					$("#subject").val(value);
-				});
+	$("#name").keyup(function () {
+	  var value = $(this).val();
+	  $("#subject").val(value);
+	});
 
       });
     </script>
